@@ -1,4 +1,10 @@
-# Barotrauma-Mod-Generator
-Generate Barotrauma mods programatically from diff files
+# BaroModCLI
+Generate Barotrauma mods programatically from diff files using the command line
 
-[Read the documentation on readthedocs](https://barotrauma-mod-generator-docs.readthedocs.io/en/latest/index.html)
+BaroModCLI takes 3 params:
+baracli <bararoot> <inputmodpath> <outputpath>
+
+
+this version is an edit from the original project, stripping out the gui and making it commandline accessable.
+
+[Original project](https://github.com/Jlobblet/Barotrauma-Mod-Generator)

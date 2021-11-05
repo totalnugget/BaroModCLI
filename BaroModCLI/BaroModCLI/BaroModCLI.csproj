@@ -3,6 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
     <RootNamespace>BaroModCLI</RootNamespace>
     <FileVersion>0.1.5.0</FileVersion>
     <AssemblyVersion>0.1.5.0</AssemblyVersion>

@@ -24,7 +24,7 @@ jobs:
                   run: dotnet restore
                 - name: Build Windows
                   working-directory: ./BaroModCLI
-                  run: dotnet publish --configuration Release --no-restore --self-contained true --runtime win-x64 -p:PublishSingleFile=true --output "./build_output/${PROJECT_NAME}"
+                  run: dotnet publish --configuration Release --self-contained true --runtime win-x64 -p:PublishSingleFile=true --output "./build_output/${PROJECT_NAME}"
                 - name: Zip Binary
                   working-directory: ./BaroModCLI
                   id: zip_binary

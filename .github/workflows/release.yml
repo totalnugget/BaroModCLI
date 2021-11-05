@@ -7,7 +7,7 @@ on:
 jobs:
         build:
                 env:
-                        PROJECT_NAME: Barotrauma-Mod-Generator
+                        PROJECT_NAME: BaroModCLI
 
                 runs-on: ubuntu-latest
 

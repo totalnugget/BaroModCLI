@@ -20,10 +20,13 @@ jobs:
                   with:
                           dotnet-version: 3.1.403
                 - name: Install depencencies
+                  working-directory: ./BaroModCLI
                   run: dotnet restore
                 - name: Build Windows
+                  working-directory: ./BaroModCLI
                   run: dotnet publish --configuration Release --no-restore --self-contained true --runtime win-x64 -p:PublishSingleFile=true --output "./build_output/${PROJECT_NAME}"
                 - name: Zip Binary
+                  working-directory: ./BaroModCLI
                   id: zip_binary
                   run: |
                           cd ./build_output
